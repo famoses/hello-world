@@ -1,2 +1,2 @@
 # hello-world
-a simple java console program
+a simple c++ console program
