@@ -7,7 +7,7 @@
 #include "stdafx.h"
 #include <iostream> 
 #include <string>
-/* ----------------------------*/
+/* ---------------------------- */
 
 // -------- functions ----------
 
@@ -17,7 +17,7 @@
 
 int main(int argc, char* argv[])
 {
-	std::cout<<"Hello World!\n";
+	std::cout << "Hello World!\n";
 	return 0;
 }
 
