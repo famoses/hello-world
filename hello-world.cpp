@@ -7,6 +7,8 @@
 #include "stdafx.h"
 #include <iostream> 
 #include <string>
+#include "cfgReader.h"
+#include "colorMapper.h"
 /* ---------------------------- */
 
 // -------- functions ----------
@@ -17,6 +19,10 @@
 
 int main(int argc, char* argv[])
 {
+    unsigned bg;
+    readConfig(&bg);
+    setBackGroundColor(bg);
+    
 	std::cout << "Hello World!\n";
 	return 0;
 }
