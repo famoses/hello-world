@@ -9,6 +9,8 @@
 #include <string>
 /* ---------------------------- */
 
+// will be set by waiter thread
+unsigned isIdle;
 // -------- functions ----------
 
 //
@@ -18,6 +20,14 @@
 int main(int argc, char* argv[])
 {
 	std::cout << "Hello World!\n";
+    
+    while (!isIdle) 
+    {
+        //do something
+        
+        //wait on further user input or time-out
+    }
+    
 	return 0;
 }
 
